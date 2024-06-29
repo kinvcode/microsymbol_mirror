@@ -191,6 +191,10 @@ composer install
 4.队列管理
 >安装supervisor，配置队列任务常驻运行
 
+本地测试，可直接使用以下命令，Ctrl+C可直接终止队列监听
+```shell
+php artisan queue:work --queue=high,default
+```
 
 ## 项目说明
 
